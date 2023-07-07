@@ -1,0 +1,24 @@
+{
+    "name": "computer/profissional",
+    
+    "authors": [
+        {
+            "name": "Samuel Ferreira de Melo",
+            "email": "samueltgq@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php",
+            "app/router/router.php",
+            "app/core/controller.php",
+            "app/database/connect.php",
+            "app/database/fetchAll.php"
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+
+}
